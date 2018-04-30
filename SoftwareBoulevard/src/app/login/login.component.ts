@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { GeneralServiceService } from '../general-service.service';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-login',
@@ -9,17 +10,45 @@ import { GeneralServiceService } from '../general-service.service';
 })
 export class LoginComponent implements OnInit {
 
-  username;
+  constructor(private service: GeneralServiceService, private router: Router) { }
+
   formdata;
-  constructor() { }
 
   ngOnInit() {
-    this.formdata = new FormGroup({
-      username: new FormControl(""),
-      password: new FormControl("")
-    });
+    console.log(this.service.user_type);
+    if (this.service.user_type === undefined) {
+      this.formdata = new FormGroup({
+        username: new FormControl("",
+          Validators.compose([
+            Validators.required
+          ])),
+        password: new FormControl("",
+          Validators.compose([
+            Validators.required
+          ]))
+      });
+    }
+    else{
+      this.router.navigate(['home']);
+    }
   }
 
-  onClickSubmit(data) {this.username = data.username;}
-
+  onClickSubmit(data) {
+    for (let user of this.service.users){
+      if (data.username === user.username && data.password === user.password) {
+        if (user.role === "Team Member") {
+          this.service.user_type = "Team Member";
+          this.router.navigate(['home']);
+          }
+        else if (user.role === "Project Manager") {
+          this.service.user_type = "Project Manager";
+          this.router.navigate(['home']);
+        }
+        else{
+          this.service.user_type = "Game Administrator";
+          this.router.navigate(['home']);
+        }
+      }
+    }
+  }
 }

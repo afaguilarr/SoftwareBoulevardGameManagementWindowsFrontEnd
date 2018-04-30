@@ -8,6 +8,9 @@
            placeholder="password" formControlName="password">
     <br/>
 
-    <input type="submit" class="forsubmit" value="Log In">
+    <input type="submit" [disabled] = "!formdata.valid" class="forsubmit" value="Log In">
   </form>
 </div>
+<p>
+  {{service.user_type}}
+</p>

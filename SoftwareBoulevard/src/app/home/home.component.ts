@@ -8,9 +8,10 @@ import { GeneralServiceService } from '../general-service.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: GeneralServiceService) { }
 
   ngOnInit() {
+    console.log(this.service.user_type);
   }
 
 }
