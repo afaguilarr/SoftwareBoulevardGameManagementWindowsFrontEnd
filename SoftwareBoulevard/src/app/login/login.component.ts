@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 import { GeneralServiceService } from '../general-service.service';
 
 @Component({
@@ -8,9 +9,17 @@ import { GeneralServiceService } from '../general-service.service';
 })
 export class LoginComponent implements OnInit {
 
+  username;
+  formdata;
   constructor() { }
 
   ngOnInit() {
+    this.formdata = new FormGroup({
+      username: new FormControl(""),
+      password: new FormControl("")
+    });
   }
+
+  onClickSubmit(data) {this.username = data.username;}
 
 }

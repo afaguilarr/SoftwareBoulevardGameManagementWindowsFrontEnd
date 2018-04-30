@@ -1,3 +1,13 @@
-<p>
-  login works!
-</p>
+<div>
+  <form [formGroup]="formdata" (ngSubmit) = "onClickSubmit(formdata.value)" >
+    <input type="text" class="fortextbox" name="username" placeholder="username"
+           formControlName="username">
+    <br/>
+
+    <input type="password" class="fortextbox" name="password"
+           placeholder="password" formControlName="password">
+    <br/>
+
+    <input type="submit" class="forsubmit" value="Log In">
+  </form>
+</div>
