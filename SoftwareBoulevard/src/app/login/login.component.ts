@@ -14,7 +14,7 @@ import { Router } from "@angular/router";
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private service: GeneralServiceService, private router: Router) { }
+  constructor(public service: GeneralServiceService, public router: Router) { }
 
   formdata;
 
