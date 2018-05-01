@@ -11,6 +11,7 @@
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 4px;
 }
 
 .dropdown {
@@ -54,7 +55,9 @@ body {
 .header {
   overflow: hidden;
   background-color: #292c2f;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDEtsJwflnK4t1hnNoZOf-eNPRdgUbAJbj63kxos8ltjQ2tqJKQ');
   padding: 20px 10px;
+  background-position-x: 100px;
 }
 
 .header a {
@@ -74,7 +77,7 @@ body {
 }
 
 .header a:hover {
-  background-color: gray;
+  background-color: powderblue;
   color: black;
 }
 
