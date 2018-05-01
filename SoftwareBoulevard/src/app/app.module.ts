@@ -5,6 +5,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { GeneralServiceService } from './general-service.service';
 
+import { MatFormFieldModule, MatInputModule } from '@angular/material';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -51,6 +53,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
     RouterModule.forRoot(routes)
   ],
   providers: [GeneralServiceService],
