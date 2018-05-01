@@ -1,18 +1,19 @@
 <div class="form">
   <form [formGroup]="formdata" (ngSubmit) = "onClickSubmit(formdata.value)" >
+
     <mat-form-field>
       <input matInput placeholder="Username" name="username" formControlName="username">
     </mat-form-field>
     <br/>
 
     <mat-form-field>
-      <input matInput placeholder="Password" type="password" name="password" formControlName="password">
+      <input type="password" matInput placeholder="Password" name="password" formControlName="password">
     </mat-form-field>
     <br/>
 
-    <mat-form-field>
-      <input type="submit" [disabled] = "!formdata.valid" class="forsubmit" value="Log In">
-    </mat-form-field>
+    <button mat-raised-button type="submit" [disabled] = "!formdata.valid" class="forsubmit" value="Log In">
+      Log In
+    </button>
 
   </form>
 </div>

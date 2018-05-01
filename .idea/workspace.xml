@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42d57d4f-b72d-4a3d-a291-c58d1bdd0294" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="145">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -45,8 +41,8 @@
       <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -63,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,11 +76,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/styles.css" />
-        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css" />
       </list>
     </option>
   </component>
@@ -1431,16 +1427,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525191621430</updated>
-      <workItem from="1525191627468" duration="6436000" />
+      <workItem from="1525191627468" duration="8106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6436000" />
+    <option name="totallyTimeSpent" value="8106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18155198" />
@@ -1493,20 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1516,11 +1497,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="145">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

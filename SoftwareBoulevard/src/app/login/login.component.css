@@ -1,8 +1,15 @@
 .form {
+  border-style: solid;
+  border-color: aquamarine;
+  width: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
 }
 
-.form > * {
-  width: 100%;
+button{
+  margin-left: 10%;
 }
