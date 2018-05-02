@@ -39,7 +39,6 @@ const routes: Routes = [
   {'path':'home/companies/company-status', 'component':CompanyStatusComponent},
   {'path':'home/companies/company-status/update', 'component':UpdateCompanyComponent},
   {'path':'restricted', 'component':RestrictedComponent},
-  {'path':'email/cambia/esta/ruta/por/favor', 'component':EmailComponent},
   {'path':'**', 'component':NotFoundComponent}
 ]
 
