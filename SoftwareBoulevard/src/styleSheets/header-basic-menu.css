@@ -1,97 +1,75 @@
-.icon-menu{
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-}
-
-.dropbtn {
-  background-color: lightgrey;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: static;
-  background-color: powderblue;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: powderblue}
-
-.dropdown:hover .dropdown-content {
-  display: inline;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: powderblue;
-}
-
-* {box-sizing: border-box;}
-
-body {
+body{
   margin: 0;
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
-.header {
-  overflow: hidden;
-  background-color: #292c2f;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDEtsJwflnK4t1hnNoZOf-eNPRdgUbAJbj63kxos8ltjQ2tqJKQ');
-  padding: 20px 10px;
-  background-position-x: 100px;
+header{
+  width: 100%;
+  background: #F5F2DC;
 }
 
-.header a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 12px;
+#btn-menu{
+  display: none;
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 60px;
+  padding: 10px;
+  border-right: 1px solid #454445;
+}
+
+header label:hover{
+  cursor: pointer;
+  background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li{
+  border-right: 1px solid #454445;
+}
+
+.menu li a{
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+.menu li:hover{
+  background: rgba(0,0,0,0.3);
 }
 
-.header a:hover {
-  background-color: powderblue;
-  color: black;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
+@media (max-width: 500px){
+  header label{
     display: block;
-    text-align: left;
   }
-  .header-right {
-    float: none;
+
+  .menu{
+    position: absolute;
+    background: #F5F2DC;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
   }
+
+  .menu ul{
+    flex-direction: column;
+  }
+
+  .menu li{
+    border-top: 1px solid #454445;
+  }
+
+  #btn-menu:checked ~ .menu{
+    margin: 0;
+  }
+
 }
