@@ -1,15 +1,15 @@
-.form {
-  border-style: solid;
-  border-color: aquamarine;
-  width: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
+/deep/ .mat-input-underline{
+  border-bottom: 1px solid #009494!important;
 }
-
-button{
-  margin-left: 10%;
+.element{
+  text-align: center;
+}
+.element2{
+  margin-bottom: 10px;
+}
+.error{
+  color: red;
+}
+mat-hint{
+  color: #009494;
 }
