@@ -38,14 +38,15 @@ export class CreateCompanyComponent implements OnInit {
     });
   }
 
-  new_username(username){
-    for(let user of this.service.users){
-      if(username === user.username){
+  /*new_name(name){
+    for(let company of this.service.companies){
+      if(name === company.name){
         return false;
       }
     }
     return true;
-  }
+  }*/
+
   formdata;
   invalid = false;
   success = false;
@@ -70,7 +71,7 @@ export class CreateCompanyComponent implements OnInit {
   }
 
   onClickSubmit(data) {
-    this.auxiliar = this.new_username(data.username);
+    /*this.auxiliar = this.new_username(data.username);
     if(data.password === data.confirmation && this.auxiliar) {
       this.user = new User(data.name, data.username, data.password, data.role);
       this.service.users.push(this.user);
@@ -89,7 +90,7 @@ export class CreateCompanyComponent implements OnInit {
       this.invalid = true;
       this.success = false;
       this.flawed_username = false;
-    }
+    }*/
   }
 
 }

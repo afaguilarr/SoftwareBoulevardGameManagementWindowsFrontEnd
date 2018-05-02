@@ -9,5 +9,7 @@ export class GeneralServiceService {
     new User("John Jairo Serna","jjsernaco","holaMUNDO456","Project Manager"),
     new User("Carlos Mario Zapata","cmzapata","EnserioEsaEsTuPregunta?","Game Administrator")];
   user_to_be_updated = this.users[1];
+  companies = [];
+  company_to_be_updated;
   constructor() { }
 }
