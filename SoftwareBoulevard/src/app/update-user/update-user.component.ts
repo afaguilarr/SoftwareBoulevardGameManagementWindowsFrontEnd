@@ -15,30 +15,18 @@ export class UpdateUserComponent implements OnInit {
 
   form(){
     this.formdata = new FormGroup({
-      name: new FormControl('',
-        Validators.compose([
-          Validators.required
-        ])),
-      username: new FormControl('',
-        Validators.compose([
-          Validators.required
-        ])),
-      password: new FormControl('',
-        Validators.compose([
-          Validators.required
-        ])),
-      confirmation: new FormControl('',
-        Validators.compose([
-          Validators.required
-        ])),
-      role: new FormControl('',
-        Validators.compose([
-          Validators.required
-        ]))
+      name: new FormControl(''),
+      username: new FormControl(''),
+      password: new FormControl(''),
+      confirmation: new FormControl(''),
+      role: new FormControl('')
     });
   }
 
-  new_username(username){
+  new_username(username, current_username){
+    if(username === current_username){
+      return false;
+    }
     for(let user of this.service.users){
       if(username === user.username){
         return false;
@@ -71,7 +59,7 @@ export class UpdateUserComponent implements OnInit {
   }
 
   onClickSubmit(data) {
-    this.auxiliar = this.new_username(data.username);
+    this.auxiliar = this.new_username(data.username, this.service.user_to_be_updated.username);
     if(data.password === data.confirmation && this.auxiliar) {
       this.user = new User(data.name, data.username, data.password, data.role);
       this.service.users.push(this.user);
