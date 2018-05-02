@@ -1,3 +1,14 @@
+#titulo{
+  width: 100%;
+  height: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #F5F2DC;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #009494;
+}
+
 body{
   margin: 0;
   font-family: sans-serif;
@@ -14,10 +25,9 @@ header{
 
 header label{
   display: none;
-  width: 30px;
-  height: 60px;
-  padding: 10px;
-  border-right: 1px solid #454445;
+  width: 35px;
+  height: 40px;
+  padding: 5px;
 }
 
 header label:hover{
@@ -33,18 +43,26 @@ header label:hover{
 }
 
 .menu li{
-  border-right: 1px solid #454445;
+  border: 1px solid #454445;
 }
 
 .menu li a{
   display: block;
   padding: 15px 20px;
-  color: #ffffff;
+  color: #009494;
   text-decoration: none;
 }
 
 .menu li:hover{
   background: rgba(0,0,0,0.3);
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #009494;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
 @media (max-width: 500px){
@@ -65,7 +83,7 @@ header label:hover{
   }
 
   .menu li{
-    border-top: 1px solid #454445;
+    border: 1px solid #454445;
   }
 
   #btn-menu:checked ~ .menu{
