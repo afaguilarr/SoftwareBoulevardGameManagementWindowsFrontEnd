@@ -38,7 +38,9 @@ export class UpdateUserComponent implements OnInit {
   formdata;
   invalid = false;
   success = false;
+  totally_empty = false;
   flawed_username = false;
+  repeated_field = false;
   hide = true;
   roles = [ "Project Manager", "Analyst", "Developer", "Tester"];
   user;
@@ -60,25 +62,56 @@ export class UpdateUserComponent implements OnInit {
 
   onClickSubmit(data) {
     this.auxiliar = this.new_username(data.username, this.service.user_to_be_updated.username);
-    if(data.password === data.confirmation && this.auxiliar) {
-      this.user = new User(data.name, data.username, data.password, data.role);
-      this.service.users.push(this.user);
-      console.log(this.service.users);
-      this.form();
-      this.invalid = false;
-      this.success = true;
-      this.flawed_username = false;
-    }
-    else if(!(this.auxiliar)){
+    if(data.username === '' && data.name === '' && data.password === '' && (data.role === '' || data.role === undefined)){
+      this.totally_empty = true;
       this.invalid = false;
       this.success = false;
-      this.flawed_username = true;
+      this.flawed_username = false;
+      this.repeated_field = false;
     }
-    else{
+    else if(!(data.password === data.confirmation)){
+      this.totally_empty = false;
       this.invalid = true;
       this.success = false;
       this.flawed_username = false;
+      this.repeated_field = false;
     }
+    else if(data.name === this.service.user_to_be_updated.name || data.username === this.service.user_to_be_updated.username
+      || data.password === this.service.user_to_be_updated.password || data.role === this.service.user_to_be_updated.role){
+      this.totally_empty = false;
+      this.invalid = false;
+      this.success = false;
+      this.flawed_username = false;
+      this.repeated_field = true;
+    }
+    else if(!(this.auxiliar)){
+      this.totally_empty = false;
+      this.invalid = false;
+      this.success = false;
+      this.flawed_username = true;
+      this.repeated_field = false;
+    }
+    else{
+      if(!(data.name === '')){
+        this.service.user_to_be_updated.name = data.name;
+      }
+      if(!(data.username === '')){
+        this.service.user_to_be_updated.username = data.username;
+      }
+      if(!(data.password === '')){
+        this.service.user_to_be_updated.password = data.password;
+      }
+      if(!(data.role === '' || data.role === undefined)){
+        this.service.user_to_be_updated.role = data.role;
+      }
+      this.totally_empty = false;
+      this.invalid = false;
+      this.success = true;
+      this.flawed_username = false;
+      this.repeated_field = false;
+      this.form();
+    }
+    console.log(this.service.users)
   }
 
 }

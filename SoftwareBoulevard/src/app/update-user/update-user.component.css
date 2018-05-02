@@ -19,3 +19,6 @@ mat-hint{
 .big-input{
   width: 100%;
 }
+.non_mayus{
+  text-transform: none!important;
+}
