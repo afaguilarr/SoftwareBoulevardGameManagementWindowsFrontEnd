@@ -6,6 +6,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { GeneralServiceService } from './general-service.service';
 
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MatIconModule, MatButtonModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -55,11 +57,17 @@ const routes: Routes = [
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
     RouterModule.forRoot(routes)
   ],
   exports: [
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
+    MatButtonModule,
+    BrowserAnimationsModule
   ],
   providers: [GeneralServiceService],
   bootstrap: [AppComponent]
