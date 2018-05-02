@@ -5,6 +5,7 @@
 @import "./styleSheets/css/main.css";
 
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
 body{
   background-color: #F5F2DC;
 }
