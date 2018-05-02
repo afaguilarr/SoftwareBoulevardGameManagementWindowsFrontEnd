@@ -3,10 +3,11 @@
   height: 40px;
   padding: 20px;
   text-align: center;
-  background: #F5F2DC;
+  background: #009494;
   font-family: sans-serif;
   font-weight: bold;
-  color: #009494;
+  color: #F5F2DC;
+  border-bottom: 1px solid #F5F2DC;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
 
 header{
   width: 100%;
-  background: #F5F2DC;
+  background: #009494;
 }
 
 #btn-menu{
@@ -28,6 +29,7 @@ header label{
   width: 35px;
   height: 40px;
   padding: 5px;
+  border-radius: 4px;
 }
 
 header label:hover{
@@ -40,16 +42,17 @@ header label:hover{
   list-style: none;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 .menu li{
-  border: 1px solid #454445;
+  border-radius: 4px;
 }
 
 .menu li a{
   display: block;
   padding: 15px 20px;
-  color: #009494;
+  color: #F5F2DC;
   text-decoration: none;
 }
 
@@ -57,10 +60,10 @@ header label:hover{
   background: rgba(0,0,0,0.3);
 }
 
-.bar1, .bar2, .bar3 {
+.bar{
   width: 35px;
   height: 5px;
-  background-color: #009494;
+  background-color: #F5F2DC;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -72,7 +75,7 @@ header label:hover{
 
   .menu{
     position: absolute;
-    background: #F5F2DC;
+    background: #009494;
     width: 70%;
     margin-left: -70%;
     transition: all 0.5s;
@@ -83,7 +86,7 @@ header label:hover{
   }
 
   .menu li{
-    border: 1px solid #454445;
+    border-bottom: 1px inset #F5F2DC;
   }
 
   #btn-menu:checked ~ .menu{
