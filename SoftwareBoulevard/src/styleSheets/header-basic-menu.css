@@ -71,6 +71,7 @@ header label:hover{
   padding: 15px 20px;
   color: #F5F2DC;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .menu li:hover{
