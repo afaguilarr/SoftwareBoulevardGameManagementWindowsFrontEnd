@@ -13,6 +13,8 @@ export class UsersComponent implements OnInit {
 
   users;
 
+  table_titles = ["name","username", "role"];
+
   ngOnInit() {
     if (this.service.user_type === undefined) {
       this.router.navigate([''])
