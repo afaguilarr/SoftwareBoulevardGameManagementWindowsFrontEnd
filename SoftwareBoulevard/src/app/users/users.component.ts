@@ -11,9 +11,19 @@ export class UsersComponent implements OnInit {
 
   constructor(public service: GeneralServiceService, public router: Router) { }
 
+  users;
+
   ngOnInit() {
     if (this.service.user_type === undefined) {
       this.router.navigate([''])
+    }
+
+    else if (this.service.user_type === "Team Member" || this.service.user_type === "Project Manager") {
+      this.router.navigate(['restricted'])
+    }
+
+    else {
+      this.users = this.service.users;
     }
   }
 

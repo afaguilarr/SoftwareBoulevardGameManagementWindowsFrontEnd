@@ -9,17 +9,41 @@ import {Router} from "@angular/router";
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public service: GeneralServiceService, public router: Router) { }
+  constructor(public service: GeneralServiceService, public router: Router) {
+  }
 
-  redirect(event){
-    this.router.navigate(['home/users/create']);
+  redirect1(event) {
+    if(this.service.user_type === "Game Administrator"){
+      this.router.navigate(['home/users']);
+    }
+    else{
+      this.router.navigate(['home/users/user-status']);
+    }
+  }
+
+  redirect2(event) {
+    if(this.service.user_type === "Game Administrator"){
+      this.router.navigate(['home/companies']);
+    }
+    else{
+      this.router.navigate(['home/companies/company-status']);
+    }
+  }
+
+  redirect3(event) {
+    if(this.service.user_type === "Game Administrator"){
+      this.router.navigate(['home/reports']);
+    }
+    else{
+      this.router.navigate(['home/play']);
+    }
   }
 
   home_user_type;
 
   ngOnInit() {
-    /*if (this.service.user_type === undefined) {
+    if (this.service.user_type === undefined) {
       this.router.navigate([''])
-    }*/
+    }
   }
 }

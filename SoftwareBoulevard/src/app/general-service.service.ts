@@ -4,8 +4,8 @@ import { Company } from './shared/company';
 
 @Injectable()
 export class GeneralServiceService {
-  user_type;
-  username;
+  user_type = "Game Administrator";
+  username = "afaguilarr";
   users = [new User("Andres Felipe Aguilar","afaguilarr","ElMejor123","Developer"),
     new User("John Jairo Serna","jjsernaco","holaMUNDO456","Project Manager"),
     new User("Carlos Mario Zapata","cmzapata","EnserioEsaEsTuPregunta?","Game Administrator"),
