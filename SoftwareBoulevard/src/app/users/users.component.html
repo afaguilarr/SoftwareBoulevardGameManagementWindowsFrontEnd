@@ -4,19 +4,25 @@
     <!--- Note that these columns can be defined in any order.
           The actual rendered columns are set as a property on the row definition" -->
 
-    <!-- Position Column -->
+    <!-- Name Column -->
     <ng-container matColumnDef="name">
       <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
     </ng-container>
 
-    <!-- Name Column -->
+    <!-- Username Column -->
     <ng-container matColumnDef="username">
       <mat-header-cell *matHeaderCellDef> Username </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.username}} </mat-cell>
     </ng-container>
 
-    <!-- Symbol Column -->
+    <!-- Password Column -->
+    <ng-container matColumnDef="password">
+      <mat-header-cell *matHeaderCellDef> Password </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.password}} </mat-cell>
+    </ng-container>
+
+    <!-- Role Column -->
     <ng-container matColumnDef="role">
       <mat-header-cell *matHeaderCellDef> Role </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.role}} </mat-cell>

@@ -13,7 +13,7 @@ export class UsersComponent implements OnInit {
 
   users;
 
-  table_titles = ["name","username", "role"];
+  table_titles = ["name","username", "password", "role"];
 
   ngOnInit() {
     if (this.service.user_type === undefined) {
