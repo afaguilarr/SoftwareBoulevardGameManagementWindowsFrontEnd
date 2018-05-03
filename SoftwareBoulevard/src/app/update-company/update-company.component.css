@@ -25,3 +25,10 @@ input{
 .non_mayus{
   text-transform: none!important;
 }
+.company_img {
+  text-align: center;
+}
+img{
+  width: 100px;
+  height: auto;
+}
