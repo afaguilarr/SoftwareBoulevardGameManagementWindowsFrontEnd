@@ -4,7 +4,7 @@
 
 
  <header>
-   <span *ngIf="this.service.user_type === 'Project Manager'">
+   <div *ngIf="this.service.user_type === 'Project Manager'">
      <input type="checkbox" id="btn-menu">
      <label for="btn-menu">
        <div class="bar"></div>
@@ -18,9 +18,9 @@
          <li><a href="logout">Logout</a></li>
        </ul>
      </nav>
-   </span>
+   </div>
 
-   <span *ngIf="this.service.user_type === 'User'">
+   <div *ngIf="this.service.user_type === 'Team Member'">
      <input type="checkbox" id="btn-menu">
      <label for="btn-menu">
        <div class="bar"></div>
@@ -34,9 +34,9 @@
          <li><a href="logout">Logout</a></li>
        </ul>
      </nav>
-   </span>
+   </div>
 
-   <span *ngIf="this.service.user_type === 'Game Administrator'">
+   <div *ngIf="this.service.user_type === 'Game Administrator'">
      <input type="checkbox" id="btn-menu">
      <label for="btn-menu">
        <div class="bar"></div>
@@ -47,11 +47,11 @@
        <ul>
          <li><a href="users">Users</a></li>
          <li><a href="companies">Companies</a></li>
-         <li><a href="company">Company</a></li>
-         <li><a href="user">User</a></li>
+         <li><a href="create-company">Company</a></li>
+         <li><a href="create-user">User</a></li>
          <li><a href="reports">Reports</a></li>
          <li><a href="logout">Logout</a></li>
        </ul>
      </nav>
-   </span>
+   </div>
  </header>

@@ -23,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-user.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-user/create-user.component.ts">
+      <file leaf-file-name="header.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="74" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -35,23 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general-service.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/general-service.service.ts">
+      <file leaf-file-name="header.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create-company.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -59,25 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-company.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.html">
+      <file leaf-file-name="header-basic-menu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create-user.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-user/create-user.component.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="create-company.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="221">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -99,8 +82,6 @@
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/styles.css" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.css" />
-        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/footer-basic-centered.css" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/update-user/update-user.component.css" />
@@ -112,6 +93,9 @@
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/general-service.service.ts" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.html" />
         <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.ts" />
+        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css" />
+        <option value="$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html" />
       </list>
     </option>
   </component>
@@ -172,38 +156,7 @@
               <item name="SoftwareBoulevard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="create-company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftwareBoulevard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="create-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftwareBoulevard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftwareBoulevard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styleSheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareBoulevardGameManagementWindowsFrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftwareBoulevard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styleSheets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,11 +199,12 @@
       <workItem from="1525221915684" duration="9478000" />
       <workItem from="1525235051915" duration="149000" />
       <workItem from="1525275887204" duration="4425000" />
+      <workItem from="1525308349013" duration="3455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40714000" />
+    <option name="totallyTimeSpent" value="44169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,11 +216,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.14494875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.18154761" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998326" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32998326" />
@@ -276,24 +230,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.09736457" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998326" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32998326" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008375" side_tool="true" weight="0.39934534" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,23 +485,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-user/create-user.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1105">
           <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -570,16 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="233" column="20" selection-start-line="233" selection-start-column="15" selection-end-line="233" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,10 +534,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="221">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/shared/company.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -630,25 +574,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/shared/user.ts">
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-user/create-user.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/shared/company.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/general-service.service.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,20 +587,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.html">
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/create-company/create-company.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="74" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
