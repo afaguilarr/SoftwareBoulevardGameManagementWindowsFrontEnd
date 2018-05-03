@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-224">
               <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-basic-menu.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header-basic-menu.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -122,7 +122,7 @@
       <path value="$PROJECT_DIR$/SoftwareBoulevard/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="40" />
     <option name="width" value="914" />
@@ -208,12 +208,12 @@
       <workItem from="1525235051915" duration="149000" />
       <workItem from="1525275887204" duration="4425000" />
       <workItem from="1525308349013" duration="6570000" />
-      <workItem from="1525352391018" duration="8492000" />
+      <workItem from="1525352391018" duration="9092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55776000" />
+    <option name="totallyTimeSpent" value="56376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -619,6 +609,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -626,10 +623,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/styleSheets/header-basic-menu.css">
+    <entry file="file://$PROJECT_DIR$/SoftwareBoulevard/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-224">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

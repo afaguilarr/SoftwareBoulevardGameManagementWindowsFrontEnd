@@ -55,7 +55,8 @@ export class HeaderComponent implements OnInit {
   }
 
   redirectLogout(event){
-    this.service.user_type === undefined
+    this.service.username = undefined;
+    this.service.user_type = undefined
     this.router.navigate(['Home'])
   }
 
